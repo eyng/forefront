@@ -1,0 +1,18 @@
+.root {
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.root > div {
+  margin-bottom: 30px;
+}
+
+.root > div:last-child {
+  margin-bottom: 0;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+}
